@@ -16,7 +16,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Filter by Episode Appearance",
     key: "ep",
-    tooltip: "Check this to only include characters that physically appear in specific episodes.",
+    tooltip: "Check this to only include characters that physically appear in specific episodes. Depictions, Illusions, and Mentioned Characters will not be included.",
     checked: false,
     sub: [
       { name: "Ep. 1 - PILOT", key: "1" },
@@ -26,6 +26,7 @@ dataSet[dataSetVersion].options = [
       { name: "Ep. 5 - Untitled", key: "5" },
       { name: "Ep. 6 - They All Get Guns", key: "6" },
       { name: "Ep. 7 - Beach Episode", key: "7" },
+      { name: "Ep. 8 - hjsakldfhl", key: "8" },
     ]
   },
   {
@@ -42,7 +43,7 @@ dataSet[dataSetVersion].characterData = [
     img: "pomni.png",
     opts: {
       type: ["human"],
-      ep: ["1", "2", "3", "4", "5", "6", "7"],
+      ep: ["1", "2", "3", "4", "5", "6", "7", "8"],
       minor: false
     }
   },{
@@ -50,7 +51,7 @@ dataSet[dataSetVersion].characterData = [
     img: "ragatha.png",
     opts: {
       type: ["human"],
-      ep: ["1", "2", "3", "4", "5", "6", "7"],
+      ep: ["1", "2", "3", "4", "5", "6", "7", "8"],
       minor: false
     }
   },
@@ -59,7 +60,7 @@ dataSet[dataSetVersion].characterData = [
     img: "jax.png",
     opts: {
       type: ["human"],
-      ep: ["1", "2", "3", "4", "5", "6", "7"],
+      ep: ["1", "2", "3", "4", "5", "6", "7", "8"],
       minor: false
     }
   },
@@ -68,7 +69,7 @@ dataSet[dataSetVersion].characterData = [
     img: "gangle.png",
     opts: {
       type: ["human"],
-      ep: ["1", "2", "3", "4", "5", "6", "7"],
+      ep: ["1", "2", "3", "4", "5", "6", "7", "8"],
       minor: false
     }
   },
@@ -77,7 +78,7 @@ dataSet[dataSetVersion].characterData = [
     img: "zooble.png",
     opts: {
       type: ["human"],
-      ep: ["1", "2", "3", "4", "5", "6", "7"],
+      ep: ["1", "2", "3", "4", "5", "6", "7", "8"],
       minor: false
     }
   },
@@ -86,7 +87,7 @@ dataSet[dataSetVersion].characterData = [
     img: "kinger.png",
     opts: {
       type: ["human"],
-      ep: ["1", "2", "3", "4", "5", "6", "7"],
+      ep: ["1", "2", "3", "4", "5", "6", "7", "8"],
       minor: false
     }
   },
@@ -104,7 +105,7 @@ dataSet[dataSetVersion].characterData = [
     img: "queenie.png",
     opts: {
       type: ["human"],
-      ep: ["3"],
+      ep: ["3", "8"],
       minor: false
     }
   },
@@ -122,7 +123,7 @@ dataSet[dataSetVersion].characterData = [
     img: "caine.png",
     opts: {
       type: ["ai"],
-      ep: ["1", "2", "3", "4", "5", "6", "7"],
+      ep: ["1", "2", "3", "4", "5", "6", "7", "8"],
       minor: false
     }
   },
@@ -131,7 +132,7 @@ dataSet[dataSetVersion].characterData = [
     img: "bubble.png",
     opts: {
       type: ["ai"],
-      ep: ["1", "2", "3", "4", "5", "6", "7"],
+      ep: ["1", "2", "3", "4", "5", "6", "7", "8"],
       minor: false
     }
   },
@@ -149,7 +150,7 @@ dataSet[dataSetVersion].characterData = [
     img: "gloinkqueen.png",
     opts: {
       type: ["npc"],
-      ep: ["1", "4"],
+      ep: ["1", "4", "8"],
       minor: false
     }
   },
@@ -167,7 +168,7 @@ dataSet[dataSetVersion].characterData = [
     img: "gummigoo.png",
     opts: {
       type: ["npc"],
-      ep: ["2", "4"],
+      ep: ["2", "4", "8"],
       minor: false
     }
   },
@@ -176,7 +177,7 @@ dataSet[dataSetVersion].characterData = [
     img: "max.png",
     opts: {
       type: ["npc"],
-      ep: ["2", "4"],
+      ep: ["2", "4", "8"],
       minor: true
     }
   },
@@ -185,7 +186,7 @@ dataSet[dataSetVersion].characterData = [
     img: "chad.png",
     opts: {
       type: ["npc"],
-      ep: ["2", "4"],
+      ep: ["2", "4", "8"],
       minor: true
     }
   },
@@ -194,7 +195,7 @@ dataSet[dataSetVersion].characterData = [
     img: "loolilalu.png",
     opts: {
       type: ["npc"],
-      ep: ["2"],
+      ep: ["2", "8"],
       minor: false
     }
   },
@@ -203,7 +204,7 @@ dataSet[dataSetVersion].characterData = [
     img: "fudge.png",
     opts: {
       type: ["npc"],
-      ep: ["2"],
+      ep: ["2", "8"],
       minor: false
     }
   },
@@ -239,7 +240,7 @@ dataSet[dataSetVersion].characterData = [
     img: "angel.png",
     opts: {
       type: ["npc"],
-      ep: ["3"],
+      ep: ["3", "8"],
       minor: false
     }
   },
@@ -347,16 +348,16 @@ dataSet[dataSetVersion].characterData = [
     img: "scratch.png",
     opts: {
       type: ["human"],
-      ep: [],
+      ep: ["8"],
       minor: true
     }
   },
   {
-    name: "Worm-on-a-String",
+    name: "Worm",
     img: "woim.png",
     opts: {
       type: ["human"],
-      ep: [],
+      ep: ["8"],
       minor: true
     }
   },
@@ -374,16 +375,16 @@ dataSet[dataSetVersion].characterData = [
     img: "polkadots.png",
     opts: {
       type: ["human"],
-      ep: [],
+      ep: ["8"],
       minor: true
     }
   },
   {
-    name: "Sock Puppet",
+    name: "Rat Plush",
     img: "sockpuppet.png",
     opts: {
       type: ["human"],
-      ep: [],
+      ep: ["8"],
       minor: true
     }
   },
@@ -419,7 +420,7 @@ dataSet[dataSetVersion].characterData = [
     img: "purpledino.png",
     opts: {
       type: ["human"],
-      ep: [],
+      ep: ["8"],
       minor: true
     }
   },
@@ -509,6 +510,15 @@ dataSet[dataSetVersion].characterData = [
     img: "paine.png",
     opts: {
       type: ["npc"],
+      ep: [],
+      minor: true
+    }
+  },
+  {
+    name: "The Other AI",
+    img: "theotherai.png",
+    opts: {
+      type: ["ai"],
       ep: [],
       minor: true
     }
