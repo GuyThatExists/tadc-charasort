@@ -353,7 +353,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Worm",
+    name: "Wormo",
     img: "woim.png",
     opts: {
       type: ["human"],
@@ -371,7 +371,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Polka Dot Jester",
+    name: "Bizco",
     img: "polkadots.png",
     opts: {
       type: ["human"],
@@ -380,7 +380,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Rat Plush",
+    name: "Rattie",
     img: "sockpuppet.png",
     opts: {
       type: ["human"],
@@ -416,7 +416,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Purple Dinosaur",
+    name: "Spike",
     img: "purpledino.png",
     opts: {
       type: ["human"],
